@@ -1,0 +1,23 @@
+.tourna {
+	padding: 60px;
+	margin: auto;
+}
+.Text {
+	font-size: 30px;
+	letter-spacing: 3px;
+	text-align: center;
+	text-transform: capitalize;
+}
+.Video {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px auto;
+}
+.header {
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 800;
+}

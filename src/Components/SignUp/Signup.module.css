@@ -1,0 +1,105 @@
+.cont {
+	width: 100%;
+	margin: 0 auto;
+}
+.Head {
+	margin: 3px auto;
+	padding-bottom: 8px;
+	width: 260px;
+	color: #00b894;
+	border-bottom: 3px solid #78788c;
+	text-transform: uppercase;
+	font-size: 40px;
+	letter-spacing: 4px;
+}
+input {
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	background: none;
+	outline: none;
+	resize: none;
+	border: 0;
+	font-family: 'Montserrat', sans-serif;
+	transition: all .3s;
+	border-bottom: 2px solid #bebed2;
+	font-size: 15px;
+}
+input:focus {
+	border-bottom: 2px solid #00b8948c;
+}
+.div {
+	display: block;
+	margin: 20px;
+	font-size: 29px;
+	color: #00b894;
+	padding: 0;
+}
+.label {
+	color: #000;
+	font-size: 21px;
+	font-weight: 500;
+}
+
+.button {
+	float: left;
+	padding: 11px 12px;
+	margin: 50px 2px;
+	font-family: 'Montserrat', sans-serif;
+	border: 2px solid #fff;
+	background-color: #00b894;
+	color: #fff;
+	cursor: pointer;
+	transition: all .3s;
+	font-size: 20px;
+	width: 130px;
+}
+button:hover {
+	background: #78788c;
+	color: #fff;
+}
+.buttonCancel {
+	width: 130px;
+	font-size: 20px;
+	float: right;
+	padding: 11px 12px;
+	margin: 50px 2px;
+	font-family: 'Montserrat', sans-serif;
+	border: 2px solid #fff;
+	background-color: #c0392b;
+	color: #fff;
+	cursor: pointer;
+	transition: all .3s;
+}
+button:hover {
+	background: #78788c;
+	color: #fff;
+}
+.text {
+	content: 'Hi';
+	position: absolute;
+	bottom: -15px;
+	right: -20px;
+	background: #50505a;
+	color: #fff;
+	width: 320px;
+	padding: 16px 4px 16px 0;
+	border-radius: 6px;
+	font-size: 13px;
+	box-shadow: 10px 10px 40px -14px #000;
+}
+span {
+	margin: 0 5px 0 15px;
+}
+.address {
+	margin: 80px auto;
+	font-size: 16px;
+	text-align: left;
+	color: #78788c;
+}
+.address span {
+	font-size: 20px;
+	color: #202020;
+	margin: 0;
+	letter-spacing: 3px;
+}
