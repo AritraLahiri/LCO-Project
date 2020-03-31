@@ -9,8 +9,8 @@
 	left: 29%;
 	top: 8%;
 	box-sizing: border-box;
-	transition: all 0.3s ease-out;
 	height: auto;
+	transition: all 0.5s ease-out;
 }
 
 @media (min-width: 730px) {

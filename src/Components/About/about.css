@@ -49,6 +49,10 @@
 	height: 0;
 	overflow: hidden;
 }
+.section p {
+	color: #202020;
+	font-size: 20px;
+}
 .section:target {
 	height: auto;
 }

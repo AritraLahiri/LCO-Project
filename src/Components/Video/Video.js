@@ -6,9 +6,9 @@ const video = () => (
 		width="1000"
 		height="500"
 		src="https://www.youtube.com/embed/hqvGOPB0KmQ"
-		frameborder="0"
+		frameBorder="0"
 		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-		allowfullscreen
+		allowFullScreen
 	/>
 );
 export default video;
