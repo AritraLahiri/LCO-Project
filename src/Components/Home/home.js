@@ -45,14 +45,14 @@ class Home extends Component {
 					{' '}
 					fight for your team <span className={classes.ChangeContent}> </span>{' '}
 				</h3>
-				<a className={classes.BtnOne} onClick={this.onLoginButtonClickedHandler}>
+				<button className={classes.BtnOne} onClick={this.onLoginButtonClickedHandler}>
 					{' '}
 					Login{' '}
-				</a>
-				<a href="#" className={classes.BtnTwo} onClick={this.onSignUpButtonClickedHandler}>
+				</button>
+				<button className={classes.BtnTwo} onClick={this.onSignUpButtonClickedHandler}>
 					{' '}
 					Signup{' '}
-				</a>
+				</button>
 
 				<p> go fight for a team </p>
 			</section>
